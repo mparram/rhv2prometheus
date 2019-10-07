@@ -2,16 +2,19 @@
     <head>
      <script src="/js/jquery-1.7.2.min.js"></script>
      <script src="/js/jquery.listswap.min.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap" rel="stylesheet">
      <link rel="stylesheet" type="text/css" href="/css/menu.css"/>
      <script src="/socket.io/socket.io.js"></script>
      <link rel="stylesheet" type="text/css" href="/css/jquery.listswap.min.css"/>
     </head>
     <body>
       <ul id="menu">
+          <li><div class="logo"><font color="#ff1a1a">RHV</font>2Prometheus</div></li>
           <li><a href="/events">Events</a></li>
           <li><a href="/metrics_menu">Metrics</a></li>
           <li><a href="/thresholds">Thresholds</a></li>
           <li><a href="/prom2nagios">Prometheus2Nagios</a></li>
+          <li><a href="/api_menu">Api</a></li>
           <li><a href="/about">About</a></li>
           <li style="float:right"><a class="active" href="/logout">Logout</a></li>
       </ul>

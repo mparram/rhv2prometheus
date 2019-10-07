@@ -3,19 +3,22 @@
         <script src="/js/jquery-1.7.2.min.js"></script>
         <link rel="stylesheet" type="text/css" href="/css/datatables.min.css"/>
         <link rel="stylesheet" type="text/css" href="/css/menu.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap" rel="stylesheet">
         <script type="text/javascript" src="/js/datatables.min.js"></script>
         <script src="/socket.io/socket.io.js"></script>
         <script src="/js/SimpleTableCellEditor.es6.min.js"></script>
     </head>
     <body>
         <ul id="menu">
-            <li><a href="/events">Events</a></li>
-            <li><a href="/metrics_menu">Metrics</a></li>
-            <li><a href="/thresholds">Nagios thresholds</a></li>
-            <li><a href="/prom2nagios">Prometheus2Nagios</a></li>
-            <li><a href="/about">About</a></li>
-            <li style="float:right"><a class="active" href="/logout">Logout</a></li>
-        </ul>
+                <li><div class="logo"><font color="#ff1a1a">RHV</font>2Prometheus</div></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/metrics_menu">Metrics</a></li>
+                <li><a href="/thresholds">Thresholds</a></li>
+                <li><a href="/prom2nagios">Prometheus2Nagios</a></li>
+                <li><a href="/api_menu">Api</a></li>
+                <li><a href="/about">About</a></li>
+                <li style="float:right"><a class="active" href="/logout">Logout</a></li>
+            </ul>
         <table id="tabla">
         <thead>
             <tr>
@@ -25,6 +28,8 @@
                 <th>Name</th>
                 <th>Compare method</th>
                 <th>perfdata</th>
+                <th>lastValue</th>
+                <th>last check</th>
             </tr>
         </thead>
         <tbody>
@@ -64,7 +69,9 @@
                             { data: "critical" },
                             { data: "name" },
                             { data: "comparemethod" },
-                            { data: "perfdata" }
+                            { data: "perfdata" },
+                            { data: "lastvalue" },
+                            { data: "date" }
                             ]
                         });
                     }else{

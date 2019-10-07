@@ -8,10 +8,14 @@
     "responds": "responds"
   },
   "dependencies": {
+    "3scale": "^0.7.6",
     "concurrently": "^4.1.2",
+    "cors": "^2.8.5",
     "dotenv": "^7.0.0",
     "express": "^4.17.1",
+    "express-session": "^1.16.0",
     "jsdom": "^14.1.0",
+    "keycloak-connect": "^7.0.0",
     "pouchdb": "^7.1.1",
     "pouchdb-replication-stream": "^1.2.9",
     "pouchdb-upsert": "^2.2.0",
@@ -20,10 +24,7 @@
     "restify": "^8.4.0",
     "socket.io": "^2.2.0",
     "xml2js": "^0.4.21",
-    "xml2json": "^0.11.2",
-    "keycloak-connect": "^7.0.0",
-    "express-session": "^1.16.0",
-    "cors": "^2.8.5"
+    "xml2json": "^0.11.2"
   },
   "devDependencies": {},
   "scripts": {

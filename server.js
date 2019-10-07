@@ -16,6 +16,7 @@ var api = require('./lib/api');
 var app = express();
 app.use(bodyParser.json());
 app.use(cors());
+app.set('json spaces', 4);
 var memoryStore = new session.MemoryStore();
 app.use(session({
   secret: 'D9uLJCX65dPCuepR',
@@ -103,8 +104,12 @@ app.get('/metrics', (req, res) => {
 app.get('/metrics_menu', keycloak.protect(), (req, res) => {
   res.sendFile(path.join(__dirname, 'metrics_menu.html'));
 });
-
-
+app.get('/api_menu', keycloak.protect(), (req, res) => {
+  res.sendFile(path.join(__dirname, 'api_menu.html'));
+});
+app.get('/about', keycloak.protect(), (req, res) => {
+  res.sendFile(path.join(__dirname, 'about.html'));
+});
 // Interval to query metrics
 setInterval(function(){
   inventory.getListFromArray(RHVObjects, RHVserver);
