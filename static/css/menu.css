@@ -43,3 +43,8 @@ li a:hover:not(.active) {
   text-align: center;
   margin: 10px;
 }
+
+.data {
+  font-family: 'Arial';
+  font-size:80%;
+}
