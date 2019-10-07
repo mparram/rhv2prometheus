@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/vms/f0afad75-501e-4051-9d40-a8c6125ed6f3/statistics/09e07489-64fd-32ab-8e4e-a2b61eed8d60" id="09e07489-64fd-32ab-8e4e-a2b61eed8d60">
+    <name>memory.buffered</name>
+    <description>Memory buffered (agent)</description>
+    <kind>gauge</kind>
+    <type>integer</type>
+    <unit>bytes</unit>
+    <values>
+        <value>
+            <datum>0</datum>
+        </value>
+    </values>
+    <vm href="/ovirt-engine/api/vms/f0afad75-501e-4051-9d40-a8c6125ed6f3" id="f0afad75-501e-4051-9d40-a8c6125ed6f3"/>
+</statistic>

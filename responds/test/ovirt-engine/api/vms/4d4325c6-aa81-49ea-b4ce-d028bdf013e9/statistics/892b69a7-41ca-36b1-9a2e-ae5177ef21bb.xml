@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/vms/4d4325c6-aa81-49ea-b4ce-d028bdf013e9/statistics/892b69a7-41ca-36b1-9a2e-ae5177ef21bb" id="892b69a7-41ca-36b1-9a2e-ae5177ef21bb">
+    <name>migration.progress</name>
+    <description>Migration Progress</description>
+    <kind>gauge</kind>
+    <type>decimal</type>
+    <unit>percent</unit>
+    <values>
+        <value>
+            <datum>0</datum>
+        </value>
+    </values>
+    <vm href="/ovirt-engine/api/vms/4d4325c6-aa81-49ea-b4ce-d028bdf013e9" id="4d4325c6-aa81-49ea-b4ce-d028bdf013e9"/>
+</statistic>

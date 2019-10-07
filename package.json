@@ -1,0 +1,44 @@
+{
+  "name": "rhv2prometheus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib",
+    "responds": "responds"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "dotenv": "^7.0.0",
+    "express": "^4.17.1",
+    "jsdom": "^14.1.0",
+    "pouchdb": "^7.1.1",
+    "pouchdb-replication-stream": "^1.2.9",
+    "pouchdb-upsert": "^2.2.0",
+    "prom-client": "^11.5.3",
+    "request": "^2.88.0",
+    "restify": "^8.4.0",
+    "socket.io": "^2.2.0",
+    "xml2js": "^0.4.21",
+    "xml2json": "^0.11.2",
+    "keycloak-connect": "^7.0.0",
+    "express-session": "^1.16.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently --kill-others \"node simulator.js\" \"set RHEVtest=true&& set RHEVrecord=false&& node server.js\"",
+    "start3": "node simulator.js&& set RHEVtest=true&& set RHEVrecord=false&& node server.js",
+    "start2": "set RHEVtest=false&& set RHEVrecord=false&& node server.js",
+    "test": "node simulator.js&& set RHEVtest=true&& set RHEVrecord=false&& node server.js",
+    "record": "set RHEVtest=false&& set RHEVrecord=true&& node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "config": {
+    "RHEVserver": "http://localhost:3001",
+    "RHEVserver2": "https://rhvm-9b1c.rhpds.opentlc.com",
+    "RHEVrecord": "false",
+    "PrometheusPushGW": "http://localhost:9091"
+  }
+}

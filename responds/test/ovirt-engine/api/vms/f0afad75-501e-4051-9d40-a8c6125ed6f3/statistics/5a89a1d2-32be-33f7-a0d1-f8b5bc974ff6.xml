@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/vms/f0afad75-501e-4051-9d40-a8c6125ed6f3/statistics/5a89a1d2-32be-33f7-a0d1-f8b5bc974ff6" id="5a89a1d2-32be-33f7-a0d1-f8b5bc974ff6">
+    <name>memory.installed</name>
+    <description>Total memory configured</description>
+    <kind>gauge</kind>
+    <type>integer</type>
+    <unit>bytes</unit>
+    <values>
+        <value>
+            <datum>1073741824</datum>
+        </value>
+    </values>
+    <vm href="/ovirt-engine/api/vms/f0afad75-501e-4051-9d40-a8c6125ed6f3" id="f0afad75-501e-4051-9d40-a8c6125ed6f3"/>
+</statistic>

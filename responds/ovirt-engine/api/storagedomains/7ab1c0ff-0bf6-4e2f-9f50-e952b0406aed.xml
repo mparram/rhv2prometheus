@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<storage_domain href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed" id="7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed">
+    <actions>
+        <link href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed/isattached" rel="isattached"/>
+        <link href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed/updateovfstore" rel="updateovfstore"/>
+        <link href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed/refreshluns" rel="refreshluns"/>
+    </actions>
+    <name>vmstore00</name>
+    <link href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed/permissions" rel="permissions"/>
+    <link href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed/templates" rel="templates"/>
+    <link href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed/vms" rel="vms"/>
+    <link href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed/disks" rel="disks"/>
+    <link href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed/storageconnections" rel="storageconnections"/>
+    <link href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed/disksnapshots" rel="disksnapshots"/>
+    <link href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed/diskprofiles" rel="diskprofiles"/>
+    <available>162135015424</available>
+    <committed>48318382080</committed>
+    <critical_space_action_blocker>5</critical_space_action_blocker>
+    <external_status>ok</external_status>
+    <master>true</master>
+    <storage>
+        <address>storage.example.com</address>
+        <nfs_version>v3</nfs_version>
+        <path>/exports/vmstore00</path>
+        <type>nfs</type>
+    </storage>
+    <storage_format>v3</storage_format>
+    <type>data</type>
+    <used>8589934592</used>
+    <warning_low_space_indicator>10</warning_low_space_indicator>
+    <wipe_after_delete>false</wipe_after_delete>
+    <data_centers>
+        <data_center id="00000001-0001-0001-0001-0000000001ac"/>
+    </data_centers>
+</storage_domain>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<disk href="/ovirt-engine/api/disks/68b9626b-a66f-4e5c-bf91-392c567de213" id="68b9626b-a66f-4e5c-bf91-392c567de213">
+    <actions>
+        <link href="/ovirt-engine/api/disks/68b9626b-a66f-4e5c-bf91-392c567de213/export" rel="export"/>
+        <link href="/ovirt-engine/api/disks/68b9626b-a66f-4e5c-bf91-392c567de213/move" rel="move"/>
+        <link href="/ovirt-engine/api/disks/68b9626b-a66f-4e5c-bf91-392c567de213/copy" rel="copy"/>
+    </actions>
+    <name>rhel72server_Disk1</name>
+    <actual_size>1148706816</actual_size>
+    <alias>rhel72server_Disk1</alias>
+    <format>raw</format>
+    <image_id>559aa552-f666-4c26-9ed3-37ec27b94af9</image_id>
+    <propagate_errors>false</propagate_errors>
+    <provisioned_size>10737418240</provisioned_size>
+    <shareable>false</shareable>
+    <sparse>true</sparse>
+    <status>ok</status>
+    <storage_type>image</storage_type>
+    <wipe_after_delete>false</wipe_after_delete>
+    <disk_profile href="/ovirt-engine/api/diskprofiles/4193f63d-b3fe-4732-86e5-dcc076f5f1b5" id="4193f63d-b3fe-4732-86e5-dcc076f5f1b5"/>
+    <storage_domains>
+        <storage_domain id="7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed"/>
+    </storage_domains>
+</disk>

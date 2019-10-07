@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/65860dae-c890-312e-9314-5c01f31225ab" id="65860dae-c890-312e-9314-5c01f31225ab">
+    <name>cpu.load.avg.5m</name>
+    <description>CPU 5 minute load average</description>
+    <kind>gauge</kind>
+    <type>decimal</type>
+    <unit>percent</unit>
+    <values>
+        <value>
+            <datum>0.080</datum>
+        </value>
+    </values>
+    <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+</statistic>

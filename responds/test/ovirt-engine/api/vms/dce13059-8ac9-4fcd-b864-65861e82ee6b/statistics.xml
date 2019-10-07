@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistics>
+    <statistic href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b/statistics/5a89a1d2-32be-33f7-a0d1-f8b5bc974ff6" id="5a89a1d2-32be-33f7-a0d1-f8b5bc974ff6">
+        <name>memory.installed</name>
+        <description>Total memory configured</description>
+        <kind>gauge</kind>
+        <type>integer</type>
+        <unit>bytes</unit>
+        <values>
+            <value>
+                <datum>1073741824</datum>
+            </value>
+        </values>
+        <vm href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b" id="dce13059-8ac9-4fcd-b864-65861e82ee6b"/>
+    </statistic>
+    <statistic href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b/statistics/b7499508-c1c3-32f0-8174-c1783e57bb08" id="b7499508-c1c3-32f0-8174-c1783e57bb08">
+        <name>memory.used</name>
+        <description>Memory used (agent)</description>
+        <kind>gauge</kind>
+        <type>integer</type>
+        <unit>bytes</unit>
+        <values>
+            <value>
+                <datum>0</datum>
+            </value>
+        </values>
+        <vm href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b" id="dce13059-8ac9-4fcd-b864-65861e82ee6b"/>
+    </statistic>
+    <statistic href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b/statistics/ef802239-b74a-329f-9955-be8fea6b50a4" id="ef802239-b74a-329f-9955-be8fea6b50a4">
+        <name>cpu.current.guest</name>
+        <description>CPU used by guest</description>
+        <kind>gauge</kind>
+        <type>decimal</type>
+        <unit>percent</unit>
+        <values>
+            <value>
+                <datum>0</datum>
+            </value>
+        </values>
+        <vm href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b" id="dce13059-8ac9-4fcd-b864-65861e82ee6b"/>
+    </statistic>
+    <statistic href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b/statistics/d849a55f-0049-36f8-ae65-face541473ac" id="d849a55f-0049-36f8-ae65-face541473ac">
+        <name>cpu.current.hypervisor</name>
+        <description>CPU overhead</description>
+        <kind>gauge</kind>
+        <type>decimal</type>
+        <unit>percent</unit>
+        <values>
+            <value>
+                <datum>0</datum>
+            </value>
+        </values>
+        <vm href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b" id="dce13059-8ac9-4fcd-b864-65861e82ee6b"/>
+    </statistic>
+    <statistic href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b/statistics/2ec286fe-4bec-32f5-8d63-dba7bed58763" id="2ec286fe-4bec-32f5-8d63-dba7bed58763">
+        <name>cpu.current.total</name>
+        <description>Total CPU used</description>
+        <kind>gauge</kind>
+        <type>decimal</type>
+        <unit>percent</unit>
+        <values>
+            <value>
+                <datum>0</datum>
+            </value>
+        </values>
+        <vm href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b" id="dce13059-8ac9-4fcd-b864-65861e82ee6b"/>
+    </statistic>
+    <statistic href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b/statistics/892b69a7-41ca-36b1-9a2e-ae5177ef21bb" id="892b69a7-41ca-36b1-9a2e-ae5177ef21bb">
+        <name>migration.progress</name>
+        <description>Migration Progress</description>
+        <kind>gauge</kind>
+        <type>decimal</type>
+        <unit>percent</unit>
+        <values>
+            <value>
+                <datum>0</datum>
+            </value>
+        </values>
+        <vm href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b" id="dce13059-8ac9-4fcd-b864-65861e82ee6b"/>
+    </statistic>
+    <statistic href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b/statistics/09e07489-64fd-32ab-8e4e-a2b61eed8d60" id="09e07489-64fd-32ab-8e4e-a2b61eed8d60">
+        <name>memory.buffered</name>
+        <description>Memory buffered (agent)</description>
+        <kind>gauge</kind>
+        <type>integer</type>
+        <unit>bytes</unit>
+        <values>
+            <value>
+                <datum>0</datum>
+            </value>
+        </values>
+        <vm href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b" id="dce13059-8ac9-4fcd-b864-65861e82ee6b"/>
+    </statistic>
+    <statistic href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b/statistics/1b6244ee-8dbd-365d-8762-482ddc05ee11" id="1b6244ee-8dbd-365d-8762-482ddc05ee11">
+        <name>memory.cached</name>
+        <description>Memory cached (agent)</description>
+        <kind>gauge</kind>
+        <type>integer</type>
+        <unit>bytes</unit>
+        <values>
+            <value>
+                <datum>0</datum>
+            </value>
+        </values>
+        <vm href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b" id="dce13059-8ac9-4fcd-b864-65861e82ee6b"/>
+    </statistic>
+    <statistic href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b/statistics/5a0fba9d-33d7-3cbf-addd-ba462040c946" id="5a0fba9d-33d7-3cbf-addd-ba462040c946">
+        <name>memory.free</name>
+        <description>Memory free (agent)</description>
+        <kind>gauge</kind>
+        <type>integer</type>
+        <unit>bytes</unit>
+        <values>
+            <value>
+                <datum>0</datum>
+            </value>
+        </values>
+        <vm href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b" id="dce13059-8ac9-4fcd-b864-65861e82ee6b"/>
+    </statistic>
+</statistics>

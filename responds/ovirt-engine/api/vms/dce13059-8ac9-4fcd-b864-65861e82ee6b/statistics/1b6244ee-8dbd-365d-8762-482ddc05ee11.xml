@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b/statistics/1b6244ee-8dbd-365d-8762-482ddc05ee11" id="1b6244ee-8dbd-365d-8762-482ddc05ee11">
+    <name>memory.cached</name>
+    <description>Memory cached (agent)</description>
+    <kind>gauge</kind>
+    <type>integer</type>
+    <unit>bytes</unit>
+    <values>
+        <value>
+            <datum>0</datum>
+        </value>
+    </values>
+    <vm href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b" id="dce13059-8ac9-4fcd-b864-65861e82ee6b"/>
+</statistic>

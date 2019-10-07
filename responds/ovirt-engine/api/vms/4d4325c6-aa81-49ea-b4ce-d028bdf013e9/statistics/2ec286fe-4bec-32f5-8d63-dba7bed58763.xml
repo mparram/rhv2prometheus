@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/vms/4d4325c6-aa81-49ea-b4ce-d028bdf013e9/statistics/2ec286fe-4bec-32f5-8d63-dba7bed58763" id="2ec286fe-4bec-32f5-8d63-dba7bed58763">
+    <name>cpu.current.total</name>
+    <description>Total CPU used</description>
+    <kind>gauge</kind>
+    <type>decimal</type>
+    <unit>percent</unit>
+    <values>
+        <value>
+            <datum>0</datum>
+        </value>
+    </values>
+    <vm href="/ovirt-engine/api/vms/4d4325c6-aa81-49ea-b4ce-d028bdf013e9" id="4d4325c6-aa81-49ea-b4ce-d028bdf013e9"/>
+</statistic>

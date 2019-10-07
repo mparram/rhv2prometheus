@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/c43847d7-3bc1-3aaf-b92c-902e64bbdb5b" id="c43847d7-3bc1-3aaf-b92c-902e64bbdb5b">
+    <name>swap.total</name>
+    <description>Total swap</description>
+    <kind>gauge</kind>
+    <type>integer</type>
+    <unit>bytes</unit>
+    <values>
+        <value>
+            <datum>5367660544</datum>
+        </value>
+    </values>
+    <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+</statistic>

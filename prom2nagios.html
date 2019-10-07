@@ -1,0 +1,164 @@
+<html>
+    <head>
+     <script src="/js/jquery-1.7.2.min.js"></script>
+     <script src="/js/jquery.listswap.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="/css/menu.css"/>
+     <script src="/socket.io/socket.io.js"></script>
+     <link rel="stylesheet" type="text/css" href="/css/jquery.listswap.min.css"/>
+    </head>
+    <body>
+      <ul id="menu">
+          <li><a href="/events">Events</a></li>
+          <li><a href="/metrics_menu">Metrics</a></li>
+          <li><a href="/thresholds">Thresholds</a></li>
+          <li><a href="/prom2nagios">Prometheus2Nagios</a></li>
+          <li><a href="/about">About</a></li>
+          <li style="float:right"><a class="active" href="/logout">Logout</a></li>
+      </ul>
+      <form>
+        <table>
+          <tr>
+            <td>
+              
+              <table>
+                  <tr>
+                    <td>
+                        Prometheus servers:
+                    </td>
+                    <td>
+                        Pre config for templates:
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <textarea id="promServers" rows="10" cols="100">OCP=http://127.0.0.1:8080</textarea>
+                    </td>
+                    <td>
+                      <textarea id="preTemplate" rows="10" cols="100"></textarea>
+                    </td>
+                  </tr>
+                </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table>
+                <tr>
+                  <td>
+                    Host template:
+                  </td>
+                  <td>
+                      Service template:
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <textarea id="hostTemplate" rows="20" cols="100">host template</textarea>
+                  </td>
+                  <td>
+                    <textarea id="serviceTemplate" rows="20" cols="100">service template</textarea>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+          <input id="queryPrometheus" type="button" value="consultar métricas de Prometheus" onclick="getPrometheusMetrics();"/>
+          <input id="saveTemplates" type="button" value="editar umbrales" onclick="window.open('./thresholds');"/>
+          <input id="saveTemplates" type="button" value="guardar plantillas en servidor" onclick="sendTemplates();"/>
+          <br>
+          <div id=templatesFiles></div>
+      </form>
+      <br>    
+        <form method="post">
+          <div id="metricList">
+            <select hidden id="source" data-search="Search for options">
+            </select>
+            <select hidden id="destination" data-search="Search for options">
+            </select>
+          </div>
+        </form>
+
+
+      <script>
+        var nspProm = io('/prom2nagios');
+        var listSwap;
+        nspProm.on("templateFiles", function(data){
+          $(document).ready( function() {
+            $('#templatesFiles').append('<a href="/nagios_cfg/' + data + '">' + data+ '</a><br>');
+          });
+        });
+        nspProm.on("metrics", function(data){
+          $(document).ready( function() {
+            var selectSource = document.getElementById("source");
+            var option = [];
+            for(i=0;i < data.length -1;i++){
+              option[i] = document.createElement("option");
+              option[i].text = data[i][1] + "|" + data[i][2];
+              option[i].value = data[i][4] + "|" + data[i][3] + "|" + data[i][0];
+              option[i].serverUrl = data[i][4];
+              selectSource.add(option[i]);
+            }
+            var element;
+            if (document.getElementsByClassName("listswap-wrap")[0]){
+              $("#source").appendTo("#metricList");
+              $("#destination").appendTo("#metricList");
+              element = document.getElementsByClassName("listswap-wrap")[0];
+              document.getElementById("metricList").removeChild(element);
+            }
+            
+            $('#source, #destination').listSwap({
+            srcTitle: 'A MONITORIZAR:',
+            destTitle: 'EXCLUIR DE NAGIOS CFG:',
+            height : 300
+            });
+           
+
+          });
+        });
+
+        nspProm.on("promTemplates", function(data){
+          $(document).ready( function() {
+            $('#promServers').val(data["prometheus_servers"]);
+            $('#preTemplate').val(data["pre_template"]);
+            $('#hostTemplate').val(data["host_template"]);
+            $('#serviceTemplate').val(data["service_template"]);
+          });
+        });
+
+
+        var getPrometheusMetrics = function(){
+          var templates = {};
+          var list
+          var optionsToPurge = document.getElementsByClassName("listswap-hidden");
+
+          for (z=0;z < optionsToPurge.length; z++){
+            optionsToPurge[z].innerHTML = '';
+            //document.getElementById(optionsToPurge[z].id).removeChild(element);
+          }
+
+          templates["prometheus_servers"] = $('#promServers').val();
+          templates["pre_template"] = $('#preTemplate').val();
+          templates["host_template"] = $('#hostTemplate').val();
+          templates["service_template"] = $('#serviceTemplate').val();
+          nspProm.emit("getPrometheusMetrics", templates);
+        }
+
+        var sendTemplates = function(){
+          var templates = [];
+          var listsList = document.getElementsByClassName('listswap-list');
+          var srcList = null;
+          for (z=0;z < listsList.length; z++){
+            if (listsList[z].id.substring(0,9) == "src_list_"){
+              srcList = listsList[z].id;
+            }
+          }
+
+          $('#' + srcList + ' > li').each(function() {
+            templates.push({text: this.innerText, value: this.dataset.value, serverUrl: this.dataset.serverUrl});
+          });
+          nspProm.emit("sendTemplates", templates);
+        }
+      </script>
+    </body>
+</html>

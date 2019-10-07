@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data_centers>
+    <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac">
+        <name>Default</name>
+        <description>The default Data Center</description>
+        <link href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac/storagedomains" rel="storagedomains"/>
+        <link href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac/clusters" rel="clusters"/>
+        <link href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac/networks" rel="networks"/>
+        <link href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac/permissions" rel="permissions"/>
+        <link href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac/quotas" rel="quotas"/>
+        <link href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac/qoss" rel="qoss"/>
+        <link href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac/iscsibonds" rel="iscsibonds"/>
+        <local>false</local>
+        <quota_mode>disabled</quota_mode>
+        <status>up</status>
+        <storage_format>v3</storage_format>
+        <supported_versions>
+            <version>
+                <major>4</major>
+                <minor>0</minor>
+            </version>
+        </supported_versions>
+        <version>
+            <major>4</major>
+            <minor>0</minor>
+        </version>
+        <mac_pool href="/ovirt-engine/api/macpools/0000000d-000d-000d-000d-0000000000cc" id="0000000d-000d-000d-000d-0000000000cc"/>
+    </data_center>
+</data_centers>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<disk_attachments>
+    <disk_attachment href="/ovirt-engine/api/vms/6327336b-9c0e-456b-8402-be24a4de3aae/diskattachments/6fe60154-4e5e-4632-9248-56a13623adad" id="6fe60154-4e5e-4632-9248-56a13623adad">
+        <active>true</active>
+        <bootable>false</bootable>
+        <interface>virtio</interface>
+        <disk href="/ovirt-engine/api/disks/6fe60154-4e5e-4632-9248-56a13623adad" id="6fe60154-4e5e-4632-9248-56a13623adad"/>
+        <vm href="/ovirt-engine/api/vms/6327336b-9c0e-456b-8402-be24a4de3aae" id="6327336b-9c0e-456b-8402-be24a4de3aae"/>
+    </disk_attachment>
+</disk_attachments>

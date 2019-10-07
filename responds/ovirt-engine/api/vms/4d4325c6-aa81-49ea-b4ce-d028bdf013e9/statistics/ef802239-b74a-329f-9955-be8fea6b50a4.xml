@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/vms/4d4325c6-aa81-49ea-b4ce-d028bdf013e9/statistics/ef802239-b74a-329f-9955-be8fea6b50a4" id="ef802239-b74a-329f-9955-be8fea6b50a4">
+    <name>cpu.current.guest</name>
+    <description>CPU used by guest</description>
+    <kind>gauge</kind>
+    <type>decimal</type>
+    <unit>percent</unit>
+    <values>
+        <value>
+            <datum>0</datum>
+        </value>
+    </values>
+    <vm href="/ovirt-engine/api/vms/4d4325c6-aa81-49ea-b4ce-d028bdf013e9" id="4d4325c6-aa81-49ea-b4ce-d028bdf013e9"/>
+</statistic>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b/statistics/5a0fba9d-33d7-3cbf-addd-ba462040c946" id="5a0fba9d-33d7-3cbf-addd-ba462040c946">
+    <name>memory.free</name>
+    <description>Memory free (agent)</description>
+    <kind>gauge</kind>
+    <type>integer</type>
+    <unit>bytes</unit>
+    <values>
+        <value>
+            <datum>0</datum>
+        </value>
+    </values>
+    <vm href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b" id="dce13059-8ac9-4fcd-b864-65861e82ee6b"/>
+</statistic>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/vms/f0afad75-501e-4051-9d40-a8c6125ed6f3/statistics/b7499508-c1c3-32f0-8174-c1783e57bb08" id="b7499508-c1c3-32f0-8174-c1783e57bb08">
+    <name>memory.used</name>
+    <description>Memory used (agent)</description>
+    <kind>gauge</kind>
+    <type>integer</type>
+    <unit>bytes</unit>
+    <values>
+        <value>
+            <datum>0</datum>
+        </value>
+    </values>
+    <vm href="/ovirt-engine/api/vms/f0afad75-501e-4051-9d40-a8c6125ed6f3" id="f0afad75-501e-4051-9d40-a8c6125ed6f3"/>
+</statistic>

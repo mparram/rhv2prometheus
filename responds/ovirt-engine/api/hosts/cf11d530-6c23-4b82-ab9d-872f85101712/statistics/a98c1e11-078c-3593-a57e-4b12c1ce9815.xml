@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/a98c1e11-078c-3593-a57e-4b12c1ce9815" id="a98c1e11-078c-3593-a57e-4b12c1ce9815">
+    <name>cpu.current.system</name>
+    <description>System CPU usage</description>
+    <kind>gauge</kind>
+    <type>decimal</type>
+    <unit>percent</unit>
+    <values>
+        <value>
+            <datum>0</datum>
+        </value>
+    </values>
+    <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+</statistic>

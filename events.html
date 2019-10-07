@@ -1,0 +1,75 @@
+<html>
+    <head>
+     <script src="/js/jquery-1.7.2.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="/css/datatables.min.css"/>
+     <link rel="stylesheet" type="text/css" href="/css/menu.css"/>
+     <script type="text/javascript" src="/js/datatables.min.js"></script>
+     
+     <script type="text/javascript" src="/js/SimpleTableCellEditor.es6.min.js"></script>
+     <script src="/socket.io/socket.io.js"></script>
+    <script>
+      $(document).ready( function() {
+        editor = new SimpleTableCellEditor("tabla");
+        editor.SetEditableClass("editMe");
+
+        $('#myTableId').on("cell:edited", function (event) {              
+          console.log(`'${event.oldValue}' changed to '${event.newValue}'`);
+        });  
+      }); 
+    </script>
+    </head>
+    <body>
+        <ul id="menu">
+            <li><a href="/events">Events</a></li>
+            <li><a href="/metrics_menu">Metrics</a></li>
+            <li><a href="/thresholds">Thresholds</a></li>
+            <li><a href="/prom2nagios">Prometheus2Nagios</a></li>
+            <li><a href="/about">About</a></li>
+            <li style="float:right"><a class="active" href="/logout">Logout</a></li>
+        </ul>
+      <table id="tabla">
+        <thead>
+          <tr>
+            <th>Severity</th>
+            <th>time</th>
+            <th>description</th>
+            <th>code</th>
+            <th>cluster</th>
+            <th>host</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      <script>
+        var socket = io('/events');
+        console.log("aaaa" + socket);
+        socket.on("events", function(data){
+          console.log(socket);
+          $(document).ready( function() {
+            
+            if (!$.fn.DataTable.isDataTable( '#tabla' ) ) {
+              $('#tabla').dataTable({
+                data: data,
+                "aaSorting": [[ 1, "desc" ]],
+                "pageLength": 25,
+                columns: [
+                    { data: 'severity' },
+                    { data: 'time' },
+                    { data: 'description' },
+                    { data: 'code' },
+                    { data: 'cluster' },
+                    { data: 'host' }
+                ]
+              });
+            }else{
+              $('#tabla').dataTable().fnClearTable();
+              $('#tabla').dataTable().fnAddData(data);
+          }
+
+
+          });
+        });
+      </script>
+    </body>
+</html>

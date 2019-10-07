@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <script src="/js/jquery-1.7.2.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/css/datatables.min.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/menu.css"/>
+        <script type="text/javascript" src="/js/datatables.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/SimpleTableCellEditor.es6.min.js"></script>
+    </head>
+    <body>
+        <ul id="menu">
+            <li><a href="/events">Events</a></li>
+            <li><a href="/metrics_menu">Metrics</a></li>
+            <li><a href="/thresholds">Nagios thresholds</a></li>
+            <li><a href="/prom2nagios">Prometheus2Nagios</a></li>
+            <li><a href="/about">About</a></li>
+            <li style="float:right"><a class="active" href="/logout">Logout</a></li>
+        </ul>
+        <table id="tabla">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Warning</th>
+                <th>Critical</th>
+                <th>Name</th>
+                <th>Compare method</th>
+                <th>perfdata</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        </table>
+        <script>
+            var socketThresholds = io("/thresholds");
+            editor = new SimpleTableCellEditor("tabla");
+            editor.SetEditableClass("editMe");
+            $("#tabla").on("cell:edited", function (event) {
+                //console.log(`'${event.oldValue}' changed to '${event.newValue}'`);
+                console.dir(event);
+                console.log(event.element.id + " changed to " + event.newValue);
+                socketThresholds.emit("updateVal", [event.element.id, event.newValue]);
+            });
+            socketThresholds.on("thresholds", function(data){
+
+                var arrayThresholds = [];
+                for(var t in data['rows']){
+                    arrayThresholds.push(data['rows'][t]['doc']);
+                }
+                
+                $(document).ready( function() {
+                    
+                    if (!$.fn.DataTable.isDataTable( '#tabla' ) ) {
+                        console.dir(arrayThresholds);
+                        $('#tabla').dataTable({
+                            data: arrayThresholds,
+                            "pageLength": 25,
+                            "columnDefs": [
+                                { className: "editMe", "targets": [ 1,2,3,4,5 ] }
+                            ],
+                            rowId: "_id",
+                            columns: [
+                            { data: "_id"},
+                            { data: "warning" },
+                            { data: "critical" },
+                            { data: "name" },
+                            { data: "comparemethod" },
+                            { data: "perfdata" }
+                            ]
+                        });
+                    }else{
+                        $('#tabla').dataTable().fnClearTable();
+                        $('#tabla').dataTable().fnAddData(arrayThresholds);
+                    }
+                    var table = document.getElementById("tabla");
+                    for (var i = 0, row; row = table.rows[i]; i++) {
+                    console.log(table.rows[i])
+                    //iterate through rows
+                    //rows would be accessed using the "row" variable assigned in the for loop
+                        for (var j = 0, col; col = row.cells[j]; j++) {
+                            col.id = j + "---" + row.cells[0].innerHTML;
+                            //iterate through columns
+                            //columns would be accessed using the "col" variable assigned in the for loop
+                        }  
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

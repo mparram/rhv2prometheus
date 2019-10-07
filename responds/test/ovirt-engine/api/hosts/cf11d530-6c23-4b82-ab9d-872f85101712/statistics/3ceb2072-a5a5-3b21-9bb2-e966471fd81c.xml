@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/3ceb2072-a5a5-3b21-9bb2-e966471fd81c" id="3ceb2072-a5a5-3b21-9bb2-e966471fd81c">
+    <name>boot.time</name>
+    <description>Boot time of the machine</description>
+    <kind>gauge</kind>
+    <type>integer</type>
+    <unit>none</unit>
+    <values>
+        <value>
+            <datum>1555315644</datum>
+        </value>
+    </values>
+    <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+</statistic>

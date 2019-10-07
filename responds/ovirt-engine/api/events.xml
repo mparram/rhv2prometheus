@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <event href="/ovirt-engine/api/events/2240" id="2240">
+        <description>Failed to check for available updates on host rhvh00.example.com with message 'Command returned failure code 1 during SSH session 'root@rhvh00.example.com''.</description>
+        <code>839</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T05:17:44.293-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2209" id="2209">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>4f19739a</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-15T04:51:52.931-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2204" id="2204">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>16978456</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-15T04:47:32.793-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2202" id="2202">
+        <description>ETL service sampling has encountered an error. Please consult the service log for more details.</description>
+        <code>9704</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:47:20.187-04:00</time>
+    </event>
+    <event href="/ovirt-engine/api/events/2148" id="2148">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>46e5d45e</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-15T04:26:00.504-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2099" id="2099">
+        <description>Failed to verify Power Management configuration for Host rhvh00.example.com.</description>
+        <code>9000</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>alert</severity>
+        <time>2019-04-15T04:09:48.680-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2097" id="2097">
+        <description>Host rhvh00.example.com is not responding. Host cannot be fenced automatically because power management for the host is disabled.</description>
+        <code>9027</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-15T04:09:33.696-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2096" id="2096">
+        <description>VDSM rhvh00.example.com command failed: Vds timeout occured</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:09:33.639-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2095" id="2095">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:09:27.921-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2094" id="2094">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:09:16.658-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2093" id="2093">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:09:05.385-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2092" id="2092">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:08:54.116-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2091" id="2091">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:08:42.831-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2090" id="2090">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:08:31.552-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2089" id="2089">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:08:20.274-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2088" id="2088">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:08:09.005-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2087" id="2087">
+        <description>Failed to Reconstruct Master Domain for Data Center Default.</description>
+        <code>985</code>
+        <correlation_id>4e5b2240</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:07:59.019-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        <storage_domain href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed" id="7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2086" id="2086">
+        <description>VDSM rhvh00.example.com command failed: Not SPM: ()</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:07:58.994-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2085" id="2085">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:07:57.714-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2084" id="2084">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>7a749b2d</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-15T04:06:38.743-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/2082" id="2082">
+        <description>ETL service sampling has encountered an error. Please consult the service log for more details.</description>
+        <code>9704</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-15T04:06:20.299-04:00</time>
+    </event>
+    <event href="/ovirt-engine/api/events/1984" id="1984">
+        <description>Failed to check for available updates on host rhvh00.example.com with message 'Command returned failure code 1 during SSH session 'root@rhvh00.example.com''.</description>
+        <code>839</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-12T08:08:19.951-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1846" id="1846">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>794752c4</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-12T07:32:28.663-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1844" id="1844">
+        <description>ETL service sampling has encountered an error. Please consult the service log for more details.</description>
+        <code>9704</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-12T07:32:00.234-04:00</time>
+    </event>
+    <event href="/ovirt-engine/api/events/1818" id="1818">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>4fab4917</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-12T07:06:58.320-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1293" id="1293">
+        <description>Failed to check for available updates on host rhvh00.example.com with message 'Command returned failure code 1 during SSH session 'root@rhvh00.example.com''.</description>
+        <code>839</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-12T03:39:18.532-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1290" id="1290">
+        <description>Host rhvh00.example.com is not responding. Host cannot be fenced automatically because power management for the host is disabled.</description>
+        <code>9027</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-12T03:21:21.668-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1289" id="1289">
+        <description>VDSM rhvh00.example.com command failed: Vds timeout occured</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-12T03:21:21.611-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1288" id="1288">
+        <description>Failed to Reconstruct Master Domain for Data Center Default.</description>
+        <code>985</code>
+        <correlation_id>5319be30</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-12T03:19:59.706-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        <storage_domain href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed" id="7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1287" id="1287">
+        <description>VDSM rhvh00.example.com command failed: Not SPM: ()</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-12T03:19:59.682-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1286" id="1286">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-12T03:19:58.435-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1285" id="1285">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>1f29b738</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-12T03:18:27.215-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1283" id="1283">
+        <description>ETL service sampling has encountered an error. Please consult the service log for more details.</description>
+        <code>9704</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-12T03:18:00.320-04:00</time>
+    </event>
+    <event href="/ovirt-engine/api/events/1280" id="1280">
+        <description>Full backup was created on Mon Sep 05 09:23:22 EDT 2016 and it's too old. Please run engine-backup to prevent data loss in case of corruption.</description>
+        <code>9023</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>alert</severity>
+        <time>2019-04-11T17:06:27.788-04:00</time>
+    </event>
+    <event href="/ovirt-engine/api/events/1279" id="1279">
+        <description>Failed to check for available updates on host rhvh00.example.com with message 'Command returned failure code 1 during SSH session 'root@rhvh00.example.com''.</description>
+        <code>839</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T11:46:28.735-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1277" id="1277">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>783ee07b</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-11T11:06:37.459-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1272" id="1272">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>1d4d0780</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-11T10:59:07.395-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1258" id="1258">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>322fc3a3</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-11T10:45:37.413-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1253" id="1253">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>7c1e4b34</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-11T10:33:27.145-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1249" id="1249">
+        <description>Failed to check for available updates on host rhvh00.example.com with message 'Command returned failure code 1 during SSH session 'root@rhvh00.example.com''.</description>
+        <code>839</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T10:25:28.336-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/1233" id="1233">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>3ef1c0d1</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-11T09:57:37.043-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/672" id="672">
+        <description>Host rhvh00.example.com is not responding. Host cannot be fenced automatically because power management for the host is disabled.</description>
+        <code>9027</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-11T06:54:17.020-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/671" id="671">
+        <description>VDSM rhvh00.example.com command failed: Vds timeout occured</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T06:54:16.980-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/670" id="670">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T06:54:10.557-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/669" id="669">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T06:53:59.291-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/668" id="668">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T06:53:48.025-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/667" id="667">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T06:53:36.750-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/666" id="666">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T06:53:25.554-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/665" id="665">
+        <description>Failed to check for available updates on host rhvh00.example.com with message 'Command returned failure code 1 during SSH session 'root@rhvh00.example.com''.</description>
+        <code>839</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T06:53:17.706-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/664" id="664">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T06:53:14.243-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/663" id="663">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T06:53:02.915-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/662" id="662">
+        <description>Failed to Reconstruct Master Domain for Data Center Default.</description>
+        <code>985</code>
+        <correlation_id>5d1b1996</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T06:52:52.910-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        <storage_domain href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed" id="7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed"/>
+    </event>
+    <event href="/ovirt-engine/api/events/661" id="661">
+        <description>VDSM rhvh00.example.com command failed: Not SPM: ()</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T06:52:52.887-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/660" id="660">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-11T06:52:51.615-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/659" id="659">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>3fdf8757</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-11T06:51:22.588-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/619" id="619">
+        <description>Failed to check for available updates on host rhvh00.example.com with message 'Command returned failure code 1 during SSH session 'root@rhvh00.example.com''.</description>
+        <code>839</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T09:22:17.320-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/617" id="617">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>53439a67</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-09T09:20:25.985-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/615" id="615">
+        <description>ETL service sampling has encountered an error. Please consult the service log for more details.</description>
+        <code>9704</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T09:20:00.300-04:00</time>
+    </event>
+    <event href="/ovirt-engine/api/events/594" id="594">
+        <description>Failed to check for available updates on host rhvh00.example.com with message 'Command returned failure code 1 during SSH session 'root@rhvh00.example.com''.</description>
+        <code>839</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T07:42:00.299-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/584" id="584">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>324e9b49</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-09T07:25:08.964-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/489" id="489">
+        <description>Failed to check for available updates on host rhvh00.example.com with message 'Command returned failure code 1 during SSH session 'root@rhvh00.example.com''.</description>
+        <code>839</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:45:05.888-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/486" id="486">
+        <description>Host rhvh00.example.com is not responding. Host cannot be fenced automatically because power management for the host is disabled.</description>
+        <code>9027</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-09T04:34:08.864-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/485" id="485">
+        <description>VDSM rhvh00.example.com command failed: Vds timeout occured</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:34:08.803-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/484" id="484">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:34:00.739-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/483" id="483">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:33:49.472-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/482" id="482">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:33:38.204-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/481" id="481">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:33:26.877-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/480" id="480">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:33:15.594-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/479" id="479">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:33:04.351-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/478" id="478">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:32:53.070-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/477" id="477">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:32:41.799-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/476" id="476">
+        <description>Failed to Reconstruct Master Domain for Data Center Default.</description>
+        <code>985</code>
+        <correlation_id>7279108c</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:32:31.766-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        <storage_domain href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed" id="7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed"/>
+    </event>
+    <event href="/ovirt-engine/api/events/475" id="475">
+        <description>VDSM rhvh00.example.com command failed: Not SPM: ()</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:32:31.743-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/474" id="474">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:32:30.465-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/473" id="473">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>36b77919</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-09T04:31:14.447-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/471" id="471">
+        <description>ETL service sampling has encountered an error. Please consult the service log for more details.</description>
+        <code>9704</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-09T04:31:00.249-04:00</time>
+    </event>
+    <event href="/ovirt-engine/api/events/468" id="468">
+        <description>Failed to check for available updates on host rhvh00.example.com with message 'Command returned failure code 1 during SSH session 'root@rhvh00.example.com''.</description>
+        <code>839</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T14:11:56.499-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/465" id="465">
+        <description>Host rhvh00.example.com is not responding. Host cannot be fenced automatically because power management for the host is disabled.</description>
+        <code>9027</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-08T13:43:59.717-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/464" id="464">
+        <description>VDSM rhvh00.example.com command failed: Vds timeout occured</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T13:43:59.563-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/463" id="463">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T13:43:54.117-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/462" id="462">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T13:43:42.832-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/461" id="461">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T13:43:31.573-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/460" id="460">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T13:43:20.309-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/459" id="459">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T13:43:09.027-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/458" id="458">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T13:42:57.756-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/457" id="457">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T13:42:46.472-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/456" id="456">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T13:42:35.204-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/455" id="455">
+        <description>Failed to Reconstruct Master Domain for Data Center Default.</description>
+        <code>985</code>
+        <correlation_id>61d17da5</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T13:42:25.260-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        <storage_domain href="/ovirt-engine/api/storagedomains/7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed" id="7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed"/>
+    </event>
+    <event href="/ovirt-engine/api/events/454" id="454">
+        <description>VDSM rhvh00.example.com command failed: Not SPM: ()</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T13:42:25.233-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/453" id="453">
+        <description>VDSM rhvh00.example.com command failed: Cannot find master domain: u'spUUID=00000001-0001-0001-0001-0000000001ac, msdUUID=7ab1c0ff-0bf6-4e2f-9f50-e952b0406aed'</description>
+        <code>10802</code>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>error</severity>
+        <time>2019-04-08T13:42:23.916-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+    <event href="/ovirt-engine/api/events/452" id="452">
+        <description>Invalid status on Data Center Default. Setting status to Non Responsive.</description>
+        <code>980</code>
+        <correlation_id>33696916</correlation_id>
+        <custom_id>-1</custom_id>
+        <flood_rate>30</flood_rate>
+        <origin>oVirt</origin>
+        <severity>warning</severity>
+        <time>2019-04-08T13:41:05.165-04:00</time>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+        <data_center href="/ovirt-engine/api/datacenters/00000001-0001-0001-0001-0000000001ac" id="00000001-0001-0001-0001-0000000001ac"/>
+        <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+    </event>
+</events>

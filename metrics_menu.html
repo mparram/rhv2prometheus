@@ -1,0 +1,22 @@
+<html>
+    <head>
+     <script src="/js/jquery-1.7.2.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="/css/datatables.min.css"/>
+     <link rel="stylesheet" type="text/css" href="/css/menu.css"/>
+     <script type="text/javascript" src="/js/datatables.min.js"></script>
+     
+     <script type="text/javascript" src="/js/SimpleTableCellEditor.es6.min.js"></script>
+     <script src="/socket.io/socket.io.js"></script>
+    </head>
+    <body style="overflow: hidden">
+        <ul id="menu">
+            <li><a href="/events">Events</a></li>
+            <li><a href="/metrics_menu">Metrics</a></li>
+            <li><a href="/thresholds">Thresholds</a></li>
+            <li><a href="/prom2nagios">Prometheus2Nagios</a></li>
+            <li><a href="/about">About</a></li>
+            <li style="float:right"><a class="active" href="/logout">Logout</a></li>
+        </ul>
+      <object data="/metrics" type="text/html" width="100%" height="90%"></object>
+    </body>
+</html>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<hosts>
+    <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712">
+        <actions>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/upgrade" rel="upgrade"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/deactivate" rel="deactivate"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/commitnetconfig" rel="commitnetconfig"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/approve" rel="approve"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/forceselectspm" rel="forceselectspm"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/enrollcertificate" rel="enrollcertificate"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/iscsilogin" rel="iscsilogin"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/iscsidiscover" rel="iscsidiscover"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/setupnetworks" rel="setupnetworks"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/refresh" rel="refresh"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/fence" rel="fence"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/install" rel="install"/>
+            <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/activate" rel="activate"/>
+        </actions>
+        <name>rhvh00.example.com</name>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/affinitylabels" rel="affinitylabels"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/devices" rel="devices"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/fenceagents" rel="fenceagents"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/hooks" rel="hooks"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/katelloerrata" rel="katelloerrata"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/networkattachments" rel="networkattachments"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/nics" rel="nics"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/numanodes" rel="numanodes"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/permissions" rel="permissions"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics" rel="statistics"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/storage" rel="storage"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/storageconnectionextensions" rel="storageconnectionextensions"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/tags" rel="tags"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/unmanagednetworks" rel="unmanagednetworks"/>
+        <address>rhvh00.example.com</address>
+        <auto_numa_status>disable</auto_numa_status>
+        <certificate>
+            <organization>example.com</organization>
+            <subject>O=example.com,CN=rhvh00.example.com</subject>
+        </certificate>
+        <cpu>
+            <name>Intel Core i7 9xx (Nehalem Class Core i7)</name>
+            <speed>2295</speed>
+            <topology>
+                <cores>1</cores>
+                <sockets>4</sockets>
+                <threads>1</threads>
+            </topology>
+        </cpu>
+        <device_passthrough>
+            <enabled>false</enabled>
+        </device_passthrough>
+        <display>
+            <address>104.198.43.189</address>
+        </display>
+        <external_status>ok</external_status>
+        <hardware_information>
+            <manufacturer>Bochs</manufacturer>
+            <product_name>Bochs</product_name>
+            <supported_rng_sources>
+                <supported_rng_source>random</supported_rng_source>
+            </supported_rng_sources>
+            <uuid>564DADCC-A795-99FC-F2EA-24AFEAD600C3</uuid>
+        </hardware_information>
+        <iscsi>
+            <initiator>iqn.1994-05.com.redhat:7bcbc79411b2</initiator>
+        </iscsi>
+        <kdump_status>disabled</kdump_status>
+        <ksm>
+            <enabled>false</enabled>
+        </ksm>
+        <libvirt_version>
+            <build>17</build>
+            <full_version>libvirt-1.2.17-13.el7_2.5</full_version>
+            <major>1</major>
+            <minor>2</minor>
+            <revision>0</revision>
+        </libvirt_version>
+        <max_scheduling_memory>16253976576</max_scheduling_memory>
+        <memory>16658726912</memory>
+        <numa_supported>false</numa_supported>
+        <os>
+            <custom_kernel_cmdline></custom_kernel_cmdline>
+            <reported_kernel_cmdline>BOOT_IMAGE=/rhvh-4.0-0.20160817.0+1/vmlinuz-3.10.0-327.28.2.el7.x86_64 root=/dev/rhvh/rhvh-4.0-0.20160817.0+1 ro crashkernel=auto rd.lvm.lv=rhvh/rhvh-4.0-0.20160817.0+1 rd.lvm.lv=rhvh/swap LANG=en_US.UTF-8 img.bootid=rhvh-4.0-0.20160817.0+1 acpi=off</reported_kernel_cmdline>
+            <type>RHEL</type>
+            <version>
+                <full_version>4.0 - 2.el7</full_version>
+            </version>
+        </os>
+        <port>54321</port>
+        <power_management>
+            <automatic_pm_enabled>true</automatic_pm_enabled>
+            <enabled>false</enabled>
+            <kdump_detection>true</kdump_detection>
+            <pm_proxies/>
+        </power_management>
+        <protocol>stomp</protocol>
+        <se_linux>
+            <mode>enforcing</mode>
+        </se_linux>
+        <spm>
+            <priority>5</priority>
+            <status>contending</status>
+        </spm>
+        <ssh>
+            <fingerprint>SHA256:vCvM88BXl32uFF3UnrQZ8Yl4tMcKMlidKa7J3VzC1vM</fingerprint>
+            <port>22</port>
+        </ssh>
+        <status>up</status>
+        <summary>
+            <active>0</active>
+            <migrating>0</migrating>
+            <total>0</total>
+        </summary>
+        <transparent_hugepages>
+            <enabled>true</enabled>
+        </transparent_hugepages>
+        <type>ovirt_node</type>
+        <update_available>false</update_available>
+        <version>
+            <build>11</build>
+            <full_version>vdsm-4.18.11-1.el7ev</full_version>
+            <major>4</major>
+            <minor>18</minor>
+            <revision>0</revision>
+        </version>
+        <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+    </host>
+</hosts>

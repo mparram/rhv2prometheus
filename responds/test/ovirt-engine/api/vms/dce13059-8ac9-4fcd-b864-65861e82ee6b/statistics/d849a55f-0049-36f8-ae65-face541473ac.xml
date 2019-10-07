@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<statistic href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b/statistics/d849a55f-0049-36f8-ae65-face541473ac" id="d849a55f-0049-36f8-ae65-face541473ac">
+    <name>cpu.current.hypervisor</name>
+    <description>CPU overhead</description>
+    <kind>gauge</kind>
+    <type>decimal</type>
+    <unit>percent</unit>
+    <values>
+        <value>
+            <datum>0</datum>
+        </value>
+    </values>
+    <vm href="/ovirt-engine/api/vms/dce13059-8ac9-4fcd-b864-65861e82ee6b" id="dce13059-8ac9-4fcd-b864-65861e82ee6b"/>
+</statistic>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712">
+    <actions>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/deactivate" rel="deactivate"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/upgrade" rel="upgrade"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/setupnetworks" rel="setupnetworks"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/fence" rel="fence"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/approve" rel="approve"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/commitnetconfig" rel="commitnetconfig"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/enrollcertificate" rel="enrollcertificate"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/forceselectspm" rel="forceselectspm"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/iscsidiscover" rel="iscsidiscover"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/iscsilogin" rel="iscsilogin"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/refresh" rel="refresh"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/install" rel="install"/>
+        <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/activate" rel="activate"/>
+    </actions>
+    <name>rhvh00.example.com</name>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/affinitylabels" rel="affinitylabels"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/devices" rel="devices"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/fenceagents" rel="fenceagents"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/hooks" rel="hooks"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/katelloerrata" rel="katelloerrata"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/networkattachments" rel="networkattachments"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/nics" rel="nics"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/numanodes" rel="numanodes"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/permissions" rel="permissions"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics" rel="statistics"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/storage" rel="storage"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/storageconnectionextensions" rel="storageconnectionextensions"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/tags" rel="tags"/>
+    <link href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/unmanagednetworks" rel="unmanagednetworks"/>
+    <address>rhvh00.example.com</address>
+    <auto_numa_status>disable</auto_numa_status>
+    <certificate>
+        <organization>example.com</organization>
+        <subject>O=example.com,CN=rhvh00.example.com</subject>
+    </certificate>
+    <cpu>
+        <name>Intel Core i7 9xx (Nehalem Class Core i7)</name>
+        <speed>2295</speed>
+        <topology>
+            <cores>1</cores>
+            <sockets>4</sockets>
+            <threads>1</threads>
+        </topology>
+    </cpu>
+    <device_passthrough>
+        <enabled>false</enabled>
+    </device_passthrough>
+    <display>
+        <address>104.198.43.189</address>
+    </display>
+    <external_status>ok</external_status>
+    <hardware_information>
+        <manufacturer>Bochs</manufacturer>
+        <product_name>Bochs</product_name>
+        <supported_rng_sources>
+            <supported_rng_source>random</supported_rng_source>
+        </supported_rng_sources>
+        <uuid>564DADCC-A795-99FC-F2EA-24AFEAD600C3</uuid>
+    </hardware_information>
+    <iscsi>
+        <initiator>iqn.1994-05.com.redhat:7bcbc79411b2</initiator>
+    </iscsi>
+    <kdump_status>disabled</kdump_status>
+    <ksm>
+        <enabled>false</enabled>
+    </ksm>
+    <libvirt_version>
+        <build>17</build>
+        <full_version>libvirt-1.2.17-13.el7_2.5</full_version>
+        <major>1</major>
+        <minor>2</minor>
+        <revision>0</revision>
+    </libvirt_version>
+    <max_scheduling_memory>16253976576</max_scheduling_memory>
+    <memory>16658726912</memory>
+    <numa_supported>false</numa_supported>
+    <os>
+        <custom_kernel_cmdline></custom_kernel_cmdline>
+        <reported_kernel_cmdline>BOOT_IMAGE=/rhvh-4.0-0.20160817.0+1/vmlinuz-3.10.0-327.28.2.el7.x86_64 root=/dev/rhvh/rhvh-4.0-0.20160817.0+1 ro crashkernel=auto rd.lvm.lv=rhvh/rhvh-4.0-0.20160817.0+1 rd.lvm.lv=rhvh/swap LANG=en_US.UTF-8 img.bootid=rhvh-4.0-0.20160817.0+1 acpi=off</reported_kernel_cmdline>
+        <type>RHEL</type>
+        <version>
+            <full_version>4.0 - 2.el7</full_version>
+        </version>
+    </os>
+    <port>54321</port>
+    <power_management>
+        <automatic_pm_enabled>true</automatic_pm_enabled>
+        <enabled>false</enabled>
+        <kdump_detection>true</kdump_detection>
+        <pm_proxies/>
+    </power_management>
+    <protocol>stomp</protocol>
+    <se_linux>
+        <mode>enforcing</mode>
+    </se_linux>
+    <spm>
+        <priority>5</priority>
+        <status>spm</status>
+    </spm>
+    <ssh>
+        <fingerprint>SHA256:vCvM88BXl32uFF3UnrQZ8Yl4tMcKMlidKa7J3VzC1vM</fingerprint>
+        <port>22</port>
+    </ssh>
+    <status>up</status>
+    <summary>
+        <active>0</active>
+        <migrating>0</migrating>
+        <total>0</total>
+    </summary>
+    <transparent_hugepages>
+        <enabled>true</enabled>
+    </transparent_hugepages>
+    <type>ovirt_node</type>
+    <update_available>false</update_available>
+    <version>
+        <build>11</build>
+        <full_version>vdsm-4.18.11-1.el7ev</full_version>
+        <major>4</major>
+        <minor>18</minor>
+        <revision>0</revision>
+    </version>
+    <cluster href="/ovirt-engine/api/clusters/00000002-0002-0002-0002-0000000002a1" id="00000002-0002-0002-0002-0000000002a1"/>
+    <statistics>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/7816602b-c05c-3db7-a4da-3769f7ad8896" id="7816602b-c05c-3db7-a4da-3769f7ad8896">
+            <name>memory.total</name>
+            <description>Total memory</description>
+            <kind>gauge</kind>
+            <type>integer</type>
+            <unit>bytes</unit>
+            <values>
+                <value>
+                    <datum>16658726912</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/b7499508-c1c3-32f0-8174-c1783e57bb08" id="b7499508-c1c3-32f0-8174-c1783e57bb08">
+            <name>memory.used</name>
+            <description>Used memory</description>
+            <kind>gauge</kind>
+            <type>integer</type>
+            <unit>bytes</unit>
+            <values>
+                <value>
+                    <datum>499761807</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/5a0fba9d-33d7-3cbf-addd-ba462040c946" id="5a0fba9d-33d7-3cbf-addd-ba462040c946">
+            <name>memory.free</name>
+            <description>Free memory</description>
+            <kind>gauge</kind>
+            <type>integer</type>
+            <unit>bytes</unit>
+            <values>
+                <value>
+                    <datum>16158965105</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/ffc0e1fd-fa34-3f85-9862-8a841c1658bc" id="ffc0e1fd-fa34-3f85-9862-8a841c1658bc">
+            <name>memory.shared</name>
+            <description>Shared memory</description>
+            <kind>gauge</kind>
+            <type>integer</type>
+            <unit>bytes</unit>
+            <values>
+                <value>
+                    <datum>0</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/c81c86f0-bc61-3c78-a543-898b8339d03f" id="c81c86f0-bc61-3c78-a543-898b8339d03f">
+            <name>memory.buffers</name>
+            <description>IO buffers</description>
+            <kind>gauge</kind>
+            <type>integer</type>
+            <unit>bytes</unit>
+            <values>
+                <value>
+                    <datum>0</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/1b6244ee-8dbd-365d-8762-482ddc05ee11" id="1b6244ee-8dbd-365d-8762-482ddc05ee11">
+            <name>memory.cached</name>
+            <description>OS caches</description>
+            <kind>gauge</kind>
+            <type>integer</type>
+            <unit>bytes</unit>
+            <values>
+                <value>
+                    <datum>0</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/c43847d7-3bc1-3aaf-b92c-902e64bbdb5b" id="c43847d7-3bc1-3aaf-b92c-902e64bbdb5b">
+            <name>swap.total</name>
+            <description>Total swap</description>
+            <kind>gauge</kind>
+            <type>integer</type>
+            <unit>bytes</unit>
+            <values>
+                <value>
+                    <datum>5367660544</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/1a4c1c9b-f3cc-301e-82ce-47d4b9fb5a46" id="1a4c1c9b-f3cc-301e-82ce-47d4b9fb5a46">
+            <name>swap.free</name>
+            <description>Free swap</description>
+            <kind>gauge</kind>
+            <type>integer</type>
+            <unit>bytes</unit>
+            <values>
+                <value>
+                    <datum>5367660544</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/27686b4e-ba8d-3576-bc70-d68cbd8a2ba9" id="27686b4e-ba8d-3576-bc70-d68cbd8a2ba9">
+            <name>swap.used</name>
+            <description>Used swap</description>
+            <kind>gauge</kind>
+            <type>integer</type>
+            <unit>bytes</unit>
+            <values>
+                <value>
+                    <datum>0</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/ea00da15-de2d-3393-a7cb-810c4b19ed07" id="ea00da15-de2d-3393-a7cb-810c4b19ed07">
+            <name>swap.cached</name>
+            <description>Swap also in memory</description>
+            <kind>gauge</kind>
+            <type>integer</type>
+            <unit>bytes</unit>
+            <values>
+                <value>
+                    <datum>0</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/f740b9ad-14a7-3f6c-9b80-efff44777169" id="f740b9ad-14a7-3f6c-9b80-efff44777169">
+            <name>ksm.cpu.current</name>
+            <description>KSM CPU usage</description>
+            <kind>gauge</kind>
+            <type>decimal</type>
+            <unit>percent</unit>
+            <values>
+                <value>
+                    <datum>0</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/a1fab379-66e2-3b1d-9914-81a9e79cb719" id="a1fab379-66e2-3b1d-9914-81a9e79cb719">
+            <name>cpu.current.user</name>
+            <description>User CPU usage</description>
+            <kind>gauge</kind>
+            <type>decimal</type>
+            <unit>percent</unit>
+            <values>
+                <value>
+                    <datum>0</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/a98c1e11-078c-3593-a57e-4b12c1ce9815" id="a98c1e11-078c-3593-a57e-4b12c1ce9815">
+            <name>cpu.current.system</name>
+            <description>System CPU usage</description>
+            <kind>gauge</kind>
+            <type>decimal</type>
+            <unit>percent</unit>
+            <values>
+                <value>
+                    <datum>0</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/4ae97794-f56d-3f05-a9e7-8798887cd1ac" id="4ae97794-f56d-3f05-a9e7-8798887cd1ac">
+            <name>cpu.current.idle</name>
+            <description>Idle CPU usage</description>
+            <kind>gauge</kind>
+            <type>decimal</type>
+            <unit>percent</unit>
+            <values>
+                <value>
+                    <datum>100</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/65860dae-c890-312e-9314-5c01f31225ab" id="65860dae-c890-312e-9314-5c01f31225ab">
+            <name>cpu.load.avg.5m</name>
+            <description>CPU 5 minute load average</description>
+            <kind>gauge</kind>
+            <type>decimal</type>
+            <unit>percent</unit>
+            <values>
+                <value>
+                    <datum>0.040</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+        <statistic href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712/statistics/3ceb2072-a5a5-3b21-9bb2-e966471fd81c" id="3ceb2072-a5a5-3b21-9bb2-e966471fd81c">
+            <name>boot.time</name>
+            <description>Boot time of the machine</description>
+            <kind>gauge</kind>
+            <type>integer</type>
+            <unit>none</unit>
+            <values>
+                <value>
+                    <datum>1555315644</datum>
+                </value>
+            </values>
+            <host href="/ovirt-engine/api/hosts/cf11d530-6c23-4b82-ab9d-872f85101712" id="cf11d530-6c23-4b82-ab9d-872f85101712"/>
+        </statistic>
+    </statistics>
+</host>
