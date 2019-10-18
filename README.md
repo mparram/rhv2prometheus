@@ -54,7 +54,8 @@ then for the RHSSO integration, you need to add the keycloak.json file to the ro
 ```
 
 then select your option [Openshift|Node.js]
-* Openshift
+* ***Openshift***
+
 Here are some steps to take it working, obiously you can take your own way.
 
 ```
@@ -72,9 +73,7 @@ oc expose svc/rhv2prometheus
 
 Then you can access to http://rhv2prometheus-rhv2prometheus.yourappdomain.com/metrics to check the metrics to scrape from an other prometheus.
 
-Also can check the events in:
-https://rhv2prometheus-rhv2prometheus.yourappdomain.com/events (set RHSSO="true")
-http://rhv2prometheus-rhv2prometheus.yourappdomain.com/events (set RHSSO="false")
+Also you can login with RHSSO to authenticate in: http://rhv2prometheus-rhv2prometheus.yourappdomain.com
 
 For config the prometheus-operator out-of-the-box, here i use some steps that can be optimized, but the next works for me:
 
@@ -88,7 +87,7 @@ For config the prometheus-operator out-of-the-box, here i use some steps that ca
     - targets: ['rhv2prometheus-rhv2prometheus.yourappdomain.com']
 ```
 
-2.  The Stateful Set *"prometheus-k8s"* have defined 4 containers (prometheus, prometheus-config-reloader, prometheus-proxy, rules-configmap-reloader) inside each prometheus pods, we just need to edit the prometheus-config-reloader:
+2.  The Stateful Set *"prometheus-k8s"* have defined 4 containers inside each prometheus pods (prometheus, prometheus-config-reloader, prometheus-proxy, rules-configmap-reloader), we just need to edit the prometheus-config-reloader:
 
 Mount the new secret editing with our custom:
 
@@ -105,9 +104,9 @@ Mount the new secret editing with our custom:
     
 Saving the Stateful Set will start the new deploy, and prometheus-config-reloader will send the new config to the container prometheus.
 
-Then we can check our new metrics inside prometheus
+Then we can check our new metrics inside prometheus, and graph them from Grafana.
 
-* Node.js
+* ***Node.js***
 
  install it:
 
