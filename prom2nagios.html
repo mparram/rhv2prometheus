@@ -9,7 +9,7 @@
     </head>
     <body>
       <ul id="menu">
-          <li><div class="logo"><font color="#ff1a1a">RHV</font>2Prometheus</div></li>
+          <li><div class="logo"><font color="#ff1a1a">RHV</font><font size="4px">2</font>Prometheus</div></li>
           <li><a href="/events">Events</a></li>
           <li><a href="/metrics_menu">Metrics</a></li>
           <li><a href="/thresholds">Thresholds</a></li>
@@ -22,7 +22,6 @@
         <table>
           <tr>
             <td>
-              
               <table>
                   <tr>
                     <td>
@@ -81,8 +80,6 @@
             </select>
           </div>
         </form>
-
-
       <script>
         var nspProm = io('/prom2nagios');
         var listSwap;
@@ -115,11 +112,8 @@
             destTitle: 'EXCLUIR DE NAGIOS CFG:',
             height : 300
             });
-           
-
           });
         });
-
         nspProm.on("promTemplates", function(data){
           $(document).ready( function() {
             $('#promServers').val(data["prometheus_servers"]);
@@ -128,25 +122,20 @@
             $('#serviceTemplate').val(data["service_template"]);
           });
         });
-
-
         var getPrometheusMetrics = function(){
           var templates = {};
           var list
           var optionsToPurge = document.getElementsByClassName("listswap-hidden");
-
           for (z=0;z < optionsToPurge.length; z++){
             optionsToPurge[z].innerHTML = '';
             //document.getElementById(optionsToPurge[z].id).removeChild(element);
           }
-
           templates["prometheus_servers"] = $('#promServers').val();
           templates["pre_template"] = $('#preTemplate').val();
           templates["host_template"] = $('#hostTemplate').val();
           templates["service_template"] = $('#serviceTemplate').val();
           nspProm.emit("getPrometheusMetrics", templates);
         }
-
         var sendTemplates = function(){
           var templates = [];
           var listsList = document.getElementsByClassName('listswap-list');
@@ -156,7 +145,6 @@
               srcList = listsList[z].id;
             }
           }
-
           $('#' + srcList + ' > li').each(function() {
             templates.push({text: this.innerText, value: this.dataset.value, serverUrl: this.dataset.serverUrl});
           });

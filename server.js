@@ -1,11 +1,8 @@
-var Request = require("request");
 var metrics = require('./lib/metrics');
 var inventory = require('./lib/inventory');
 var events = require('./lib/events');
 var db = require('./lib/db');
-let xmlParser = require('xml2json');
 var path = require('path');
-var dotenv = require('dotenv').config();
 var fs = require('fs');
 var express = require('express');
 var session = require('express-session');
@@ -18,8 +15,9 @@ app.use(bodyParser.json());
 app.use(cors());
 app.set('json spaces', 4);
 var memoryStore = new session.MemoryStore();
+var SSOSecret = process.env.SSOSecret;
 app.use(session({
-  secret: 'D9uLJCX65dPCuepR',
+  secret: SSOSecret,
   resave: false,
   saveUninitialized: true,
   store: memoryStore
@@ -31,29 +29,21 @@ app.use(keycloak.middleware({
   admin: '/'
 }));
 app.use('/api', api);
-
 // Load RHV Server or set to simulator default
-var RHVserver = process.env.RHVserver || "http://localhost:3001" ;//"https://rhvm-b5f6.rhpds.opentlc.com"; // "http://localhost:3001";//
-console.log(RHVserver);
-// If RHVtest = true then RHV Server to simulator default; to deprecate
+var RHVserver = process.env.RHVserver || "http://localhost:3001" ;//"https://rhvm-b5f6.rhpds.opentlc.com" example for opentlc labs, "http://localhost:3001" for localhost API simulator
+// If RHVtest = true then RHV Server to simulator defaults
 if (process.env.RHVtest){
   var RHVserver = "https://localhost:3001" ;
 }
-
-
-
 // Load variable to enable record api outputs to use in simulator
 global.RHVrecord = process.env.RHVrecord || false ;
-
 // Objects to monitor as /ovirt-engine/api/[RHVObject]
 // var RHVObjects = ["vms","hosts","clusters","datacenters","networks","vmpools","storagedomains"];
 var RHVObjects = ["vms","hosts","clusters","datacenters","networks","vmpools","storagedomains"];
-
 if(process.env.RHVCredentials == ""){
   console.log("Wrong credentials in .env file, use base64 as 'username@domain:password'");
   process.exit(1);
 }
-
 const websocket = require('./websocket');
 const server = require('http').createServer(app);
 server.listen(8080);
@@ -92,15 +82,11 @@ if (process.env.NagiosCFGBuilder){
       var aliasfileArr =  req.params.file.split("_");
       res.download(path.join(__dirname, '/nagios_cfg/', req.params.file), aliasfileArr[0] + ".cfg");
     }
-
   });
 }
-
 app.get('/metrics', (req, res) => {
   metrics.sendMetricsRoute(res);
 });
-
-
 app.get('/metrics_menu', keycloak.protect(), (req, res) => {
   res.sendFile(path.join(__dirname, 'metrics_menu.html'));
 });
@@ -110,10 +96,10 @@ app.get('/api_menu', keycloak.protect(), (req, res) => {
 app.get('/about', keycloak.protect(), (req, res) => {
   res.sendFile(path.join(__dirname, 'about.html'));
 });
-// Interval to query metrics
+// Interval to query metrics in ms
+var interval = 60000;
 setInterval(function(){
   inventory.getListFromArray(RHVObjects, RHVserver);
-},300000);
-
+},interval);
 //query metrics on load
 inventory.getListFromArray(RHVObjects, RHVserver);

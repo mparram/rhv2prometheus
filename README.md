@@ -34,8 +34,21 @@ RHEVserver="https://YOURSERVER"
 # Password example "r3dh4t1!"
 # Base64 encoded user@domain:password
 RHVCredentials="YWRtaW5AaW50ZXJuYWw6cjNkaDR0MSE="
-RHSSO="true"
-RHSSOcert=""
+NagiosCFGBuilder="true"
+#Secret for RHSSO / keycloak integration
+SSOSecret="D9uLJCX65dPCuepR"
+```
+then for the RHSSO integration, you need to add the keycloak.json file to the rootpath like this example:
+
+```
+{
+  "realm": "rhv2prometheus",
+  "auth-server-url": "https://sso.app.server/auth",
+  "ssl-required": "none",
+  "resource": "rhv2prometheus",
+  "public-client": true,
+  "confidential-port": 0
+}
 ```
 
 then select your option [Openshift|Node.js]
@@ -129,6 +142,4 @@ npm run test
 
 Then you can access to http://localhost:8080/metrics to check the metrics to scrape from an other prometheus.
 
-Also can check the events in:
-https://localhost/events (set RHSSO=true)
-http://localhost:8080/events (set RHSSO=false)
+And access with SSO to the Admin page http://localhost:8080/events

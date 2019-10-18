@@ -8,10 +8,17 @@
      
      <script type="text/javascript" src="/js/SimpleTableCellEditor.es6.min.js"></script>
      <script src="/socket.io/socket.io.js"></script>
+     <script>
+        $("#inputapi").keyup(function(event) {
+    if (event.keyCode === 13) {
+        $("#objectapi").attr("data","/api/" + $("#inputapi").val());
+    }
+});
+     </script>
     </head>
     <body style="overflow: hidden">
         <ul id="menu">
-                <li><div class="logo"><font color="#ff1a1a">RHV</font>2Prometheus</div></li>
+                <li><div class="logo"><font color="#ff1a1a">RHV</font><font size="4px">2</font>Prometheus</div></li>
                 <li><a href="/events">Events</a></li>
                 <li><a href="/metrics_menu">Metrics</a></li>
                 <li><a href="/thresholds">Thresholds</a></li>
@@ -20,6 +27,8 @@
                 <li><a href="/about">About</a></li>
                 <li style="float:right"><a class="active" href="/logout">Logout</a></li>
             </ul>
-      <object data="/api/metrics" type="text/html" width="100%" height="90%"></object>
+            <br>
+            /api/<input type="text" id="inputapi" value="metrics" size="100"> <input id="buttonapi" type="button" value="Load" onclick='$("#objectapi").attr("data","/api/" + $("#inputapi").val()).hide().show();'>
+      <object data="/api/metrics" type="text/html" width="100%" height="90%" id="objectapi"></object> 
     </body>
 </html>
