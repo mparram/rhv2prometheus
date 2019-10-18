@@ -46,11 +46,8 @@
       </table>
       <script>
         var socket = io('/events');
-        console.log("aaaa" + socket);
         socket.on("events", function(data){
-          console.log(socket);
           $(document).ready( function() {
-            
             if (!$.fn.DataTable.isDataTable( '#tabla' ) ) {
               $('#tabla').dataTable({
                 data: data,
@@ -70,8 +67,6 @@
               $('#tabla').dataTable().fnClearTable();
               $('#tabla').dataTable().fnAddData(data);
           }
-
-
           });
         });
       </script>

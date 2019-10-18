@@ -1,16 +1,18 @@
 # RHV2Prometheus
 This project written in Nodejs aims to cover a gap detected in RedHat Openshift (3.11, 4.X) solutions deployed on RHHI with RHV, and it is the impossibility of centralizing monitoring on a single console.
 
-With RHV2Prometheus, metrics are generated from the objects detected in the RHV api, to import them from Openshift's own promtheus.
+With RHV2Prometheus, metrics are generated from the objects detected in the RHV api, to import them from Openshift's own prometheus, query by the API REST, query from Nagios, or anything else. 
 
 Console events are also read and presented in an authenticated view with Red Hat Single Sign-on (SSO) implemented in Openshift.
 
 It also includes a functionality to simulate the response of an ovirt api (static values from a lab), using the sample data or those read in your environment, ideal for testing the solution if we do not have an api to consult.
 
+
 - [Red Hat Hyperconverged infrastructure](https://www.redhat.com/en/technologies/storage/hyperconverged-infrastructure)
 - [RedHat Virtualization](https://www.redhat.com/en/technologies/virtualization/enterprise-virtualization)
 - [Openshift](https://www.redhat.com/en/technologies/cloud-computing/openshift)
 - [Red Hat Single Sign-On](https://access.redhat.com/products/red-hat-single-sign-on)
+- [Red Hat 3scale](https://www.redhat.com/es/technologies/jboss-middleware/3scale)
 
 ## About the idea
 I am currently involved in a project described as the need, additionally I'm adding functionalities to automate the configuration and checks of these metrics from Nagios, and the notification of events, but I exclude them.
@@ -142,4 +144,4 @@ npm run test
 
 Then you can access to http://localhost:8080/metrics to check the metrics to scrape from an other prometheus.
 
-And access with SSO to the Admin page http://localhost:8080/events
+Or access with SSO to the Admin page http://localhost:8080/events to view the differents menus.

@@ -55,7 +55,6 @@ app.get("/events", keycloak.protect(), (req, res) => {
   res.sendFile(path.join(__dirname, 'events.html')); 
   nspevents.on('connection', function(socket){
     events.getEvents(RHVserver);
-    console.log('a user connected to events');
   });
 });
 app.get('/', keycloak.protect(), (req, res) => {
@@ -70,14 +69,12 @@ if (process.env.NagiosCFGBuilder){
     res.sendFile(path.join(__dirname, 'thresholds.html'));
     nspThresholds.on('connection', function(socket){
       db.readAllThresholds(socket);
-      console.log('a user connected to thresholds');
       socket.on('updateVal', function(data){
         db.updateThreshold(data);
       });
     });
   });
   app.get('/nagios_cfg/:file', (req, res) => {
-    console.log(req.params.file);
     if(fs.existsSync(path.join(__dirname, '/nagios_cfg/', req.params.file))){
       var aliasfileArr =  req.params.file.split("_");
       res.download(path.join(__dirname, '/nagios_cfg/', req.params.file), aliasfileArr[0] + ".cfg");

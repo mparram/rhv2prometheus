@@ -42,19 +42,15 @@
             editor.SetEditableClass("editMe");
             $("#tabla").on("cell:edited", function (event) {
                 //console.log(`'${event.oldValue}' changed to '${event.newValue}'`);
-                console.dir(event);
                 console.log(event.element.id + " changed to " + event.newValue);
                 socketThresholds.emit("updateVal", [event.element.id, event.newValue]);
             });
             socketThresholds.on("thresholds", function(data){
-
                 var arrayThresholds = [];
                 for(var t in data['rows']){
                     arrayThresholds.push(data['rows'][t]['doc']);
                 }
-                
                 $(document).ready( function() {
-                    
                     if (!$.fn.DataTable.isDataTable( '#tabla' ) ) {
                         console.dir(arrayThresholds);
                         $('#tabla').dataTable({
@@ -82,7 +78,6 @@
                     }
                     var table = document.getElementById("tabla");
                     for (var i = 0, row; row = table.rows[i]; i++) {
-                    console.log(table.rows[i])
                     //iterate through rows
                     //rows would be accessed using the "row" variable assigned in the for loop
                         for (var j = 0, col; col = row.cells[j]; j++) {
