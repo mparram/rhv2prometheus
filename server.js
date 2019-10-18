@@ -11,6 +11,8 @@ var Keycloak = require('keycloak-connect');
 var cors = require('cors');
 var api = require('./lib/api');
 var app = express();
+const dotenv = require('dotenv');
+dotenv.config();
 app.use(bodyParser.json());
 app.use(cors());
 app.set('json spaces', 4);
