@@ -28,9 +28,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "concurrently --kill-others \"node simulator.js\" \"set RHVtest=true&& set RHVrecord=false&& node server.js\"",
+    "start2": "concurrently --kill-others \"node simulator.js\" \"set RHVtest=true&& set RHVrecord=false&& node server.js\"",
     "start3": "node simulator.js&& set RHVtest=true&& set RHVrecord=false&& node server.js",
-    "start2": "set RHVtest=false&& set RHVrecord=false&& node server.js",
+    "start": "set RHVtest=false&& set RHVrecord=false&& node server.js",
     "test": "node simulator.js&& set RHVtest=true&& set RHVrecord=false&& node server.js",
     "record": "set RHVtest=false&& set RHVrecord=true&& node server.js"
   },
